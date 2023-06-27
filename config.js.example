@@ -1,0 +1,17 @@
+const { GatewayIntentBits, Partials } = require('discord.js');
+
+const config = {
+    // Token of the bon
+    "token": "OTQ5NTE2MTg3NDM1Njg0Mzcy.LFPSVX.WLsToch_Y9lAfwB01vP4b8QImEx",
+    // ID of your bot
+    "clientID": "1122334455667788",
+    // Owners of the bot
+    "owners": ["8877665544332211"]
+    // Intents the bot needs
+    // Add the ones you need
+    intents: [ GatewayIntentBits.Guilds, GatewayIntentBits.GuildMembers, GatewayIntentBits.GuildMessages, GatewayIntentBits.DirectMessages ],
+    // Partials your bot may need should go here
+    partials: [ Partials.Channel ],
+}
+
+module.exports = config;

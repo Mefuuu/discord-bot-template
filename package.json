@@ -1,0 +1,30 @@
+{
+  "name": "discord-bot-template",
+  "version": "1.0.0",
+  "description": "The discord bot template written in discord.js v14",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mefuuu/discord-bot-template.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "template"
+  ],
+  "author": "Meffiu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mefuuu/discord-bot-template/issues"
+  },
+  "homepage": "https://github.com/Mefuuu/discord-bot-template#readme",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "colors": "^1.4.0",
+    "discord.js": "^14.11.0",
+    "moment": "^2.29.4"
+  }
+}
