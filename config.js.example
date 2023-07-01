@@ -6,7 +6,7 @@ const config = {
     // ID of your bot
     "clientID": "1122334455667788",
     // Owners of the bot
-    "owners": ["8877665544332211"]
+    "owners": ["8877665544332211"],
     // Intents the bot needs
     // Add the ones you need
     intents: [ GatewayIntentBits.Guilds, GatewayIntentBits.GuildMembers, GatewayIntentBits.GuildMessages, GatewayIntentBits.DirectMessages ],
