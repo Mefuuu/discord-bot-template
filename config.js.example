@@ -1,7 +1,7 @@
 const { GatewayIntentBits, Partials } = require('discord.js');
 
 const config = {
-    // Token of the bon
+    // Token of the bot
     "token": "OTQ5NTE2MTg3NDM1Njg0Mzcy.LFPSVX.WLsToch_Y9lAfwB01vP4b8QImEx",
     // ID of your bot
     "clientID": "1122334455667788",
