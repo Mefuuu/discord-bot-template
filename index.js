@@ -18,8 +18,8 @@ client.commands = new Collection();
 const commands = [];
 const ctable = new table('Commands').setHeading('Name', 'Status');
 readdirSync('./src/commands').forEach(async file => {
+    const cmd = await require(`./src/commands/${file}`);
     if (cmd.data.name) {
-        const cmd = await require(`./src/commands/${file}`);
         commands.push(cmd.data.toJSON());
         client.commands.set(cmd.data.name, cmd);
         ctable.addRow(cmd.data.name, '✅');
